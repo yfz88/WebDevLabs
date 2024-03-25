@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" context = "Felicia Zhang">
+    <meta name = "keywords" content = "Carnegie Mellon University, Information Systems">
+    <meta name = "description" content = "Felicia Zhang professional website">
+    <title>Felicia Zhang</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src = "../static/script.js"></script>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload = "addYear()">
+    <header>
+        <h1 id = "webname"> Felicia Zhang</h1>
+        <nav id = "myTopnav" class = "topnav">
+            <a href = "index.html" class = "active">Home</a>
+            <a href = "cv.html">CV</a>
+            <a href = "contact.html">Contact Me</a>
+            <a href = "fun.html">For Fun</a>
+            <a href = "javascript:void(0);" class = "icon">
+                <i class = "fa fa-bars" onclick = "activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class = "main">
+        <h2 id = "greeting"></h2>
+        <img class = "classA" src = "../static/profile.jpg" alt = "Felicia Zhang profile image" width="350px">
+        <div class = "classA">
+            <span id="shortIntro">Hi, my name is Felicia Zhang, and I am from Bay Area, California. As a freshman studying Information Systems at Carnegie Mellon University, I am interested in learning about technology and artificial intelligence. I would also like to pursue an additional major in either computer science or AI. I currently work as a teaching assistant for 15-112, Fundamentals of Programming and Computer Science, and I love tutoring and engaging with students.</span>
+            <span id = "readMore"> read more...</span>
+            <span id = "longIntro">In my free time, I enjoy visiting relatives in China and traveling around the world. Some of my favorite cities that I’ve been to are Athens, Beijing, Tokyo, and Hanoi. While I’m abroad, I love trying new foods, roaming around the streets, taking pictures, and learning about different cultures. This summer I’ll be spending a month in China with friends and family. Some other fun facts about me are that I’m an only child, and I love listening to music (primarily Chinese ballads).</span>
+            <span id = "readLess"> read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id = "copyYear">Felicia Zhang &copy</p>
+    </footer>
+</body>
+</html>

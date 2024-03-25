@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" context = "Felicia Zhang">
+    <meta name = "keywords" content = "Carnegie Mellon University, Information Systems">
+    <meta name = "description" content = "Felicia Zhang professional website">
+    <title>Felicia Zhang</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src = "../static/script.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload = "addYear()">
+    <header>
+        <h1 id = "webname"> Felicia Zhang</h1>
+        <nav id = "myTopnav" class = "topnav">
+            <a href = "index.html">Home</a>
+            <a href = "cv.html" class = "active">CV</a>
+            <a href = "contact.html">Contact Me</a>
+            <a href = "fun.html">For Fun</a>
+            <a href = "javascript:void(0);" class = "icon">
+                <i class = "fa fa-bars" onclick = "activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class = "main">
+        <h2>Curriculum Vitae</h2>
+        <table>
+            <tr><th>Name</th><th>Description</th></tr>
+            <tr><td>Carnegie Mellon University</td><td>Currently a freshman studying Information Systems<br>Working as a 15-112 Teaching Assistant</td></tr>
+            <tr><td>Homestead High School</td><td>Graduated in 2023</td></tr>
+        </table>
+        <a href = "../static/resume.pdf" target = "_blank">My resume, pdf version</a>
+        
+    </div>
+    <footer>
+        <p id = "copyYear">Felicia Zhang &copy</p>
+    </footer>
+</body>
+</html>
